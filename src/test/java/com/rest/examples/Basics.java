@@ -31,6 +31,7 @@ public class Basics {
 		System.out.println(responseData);
 		System.out.println("test 1");
 		System.out.println("test 2");
+		System.out.println("test 3");
 		//convert response into json and retrive data
 		JsonPath js=ReusableMethods.rawToJson(responseData);
 		String placeId=js.getString("place_id");
